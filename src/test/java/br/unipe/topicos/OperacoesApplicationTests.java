@@ -29,5 +29,17 @@ class OperacoesApplicationTests {
 		double resultado =op.subtrair(3,3);
 		Assertions.assertEquals(0, resultado);
 	}
+	@Test
+	public void multiplicacaoTeste() {
+		OperacoesService op = new OperacoesService();
+		double resultado =op.multiplicar(2, 3);
+		Assertions.assertEquals(6, resultado);
+	}
+	@Test
+	public void divisaoTeste() {
+		OperacoesService op = new OperacoesService();
+		double resultado =op.dividir(8, 4);
+		Assertions.assertEquals(2, resultado);
+	}
 
 }
