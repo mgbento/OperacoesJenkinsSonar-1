@@ -20,8 +20,8 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 		<maven.compiler.target>1.8</maven.compiler.target>
 		<sonar.projectKey>FujiProjeto</sonar.projectKey>
-		<sonar.host.url>http://localhost:9000</sonar.host.url>
-		<sonar.login>5b94507f3c8413a5e3db8a9697d5ad59b65cc058</sonar.login>
+		<sonar.host.url>http://ip172-18-0-23-brknp0aosm4g009k92b0-9000.direct.labs.play-with-docker.com</sonar.host.url>
+		<sonar.login>523e373b74ab8c4666a5d4b318faee6f15a58a95</sonar.login>
 	</properties>
 
 	<dependencies>
